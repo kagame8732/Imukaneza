@@ -1,0 +1,93 @@
+#header_whole_div{
+    margin: 0;
+    padding: 0;
+
+}
+#header_left_side{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+#header_right_side{
+    color: #43434F;
+    margin: auto;
+    
+}
+#left_side_list{
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 6px;
+
+}
+#left_side_list li{
+    text-decoration: none;
+    list-style: none;
+}
+#name_of_website{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 350 !important;
+}
+#logo_on_header{
+    width: 120px;
+}
+#right_side_memu{
+    padding: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    gap: 6px;
+}
+#right_side_memu li{
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+}
+#contact_us_button{
+    outline: none;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    padding-top:5px ;
+    padding-bottom:5px ;
+}
+#phone_style_div{
+    background-color: #43434F;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#color_White{
+    color: white !important;
+}
+@media only screen and (max-width:877px) {
+    #right_side_memu{
+        gap: 12px;
+    }
+}
+#phone_menu{
+    display: none;
+}
+@media only screen and (max-width:731px) {
+    #right_side_memu{
+        display: none;
+    }
+    #phone_menu{
+        display: grid;
+        margin: auto;
+        float: right;
+    }
+}
+@media only screen and (max-width:325px) {
+  #name_of_website{
+      display: none;
+  }  
+}

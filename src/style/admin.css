@@ -1,0 +1,209 @@
+/* body{
+    background-color: white !important;
+    padding: 0 !important;
+    margin: 0 !important;
+} */
+.noM{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#left_side_admin{
+  color: #949EBD;
+}
+.active{
+    color: #5E37FF !important ;
+}
+/* #middle_side_admin{
+    background-color: blue;
+} */
+
+#left_side_admin_logo{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.m_r_l {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:30px ;
+}
+#name_web_left_side{
+    color: #949EBD;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 45px;
+}
+#list_navigation{
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    gap: 14px;
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style: none;
+    margin-bottom: 20px;
+}
+#list_navigation{
+    cursor: pointer;
+}
+#list_navigation:hover{
+    color: #5E37FF;
+}
+#list_navigation #one{
+    color: grey !important;
+}
+#list_navigation #two{
+    margin: auto !important;
+}
+#admin_img_style{
+    width: 80%;
+    margin-top: 45px;
+}
+#report_style{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    color: black;
+}
+#report_details_style{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;   
+}
+#download_button_admin{
+    margin: auto;
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 12px;
+    background-color: #5E37FF;
+    color: white;
+    border-radius: 22px;
+    margin-top: 20px;
+}
+#img_whole{
+    width: 70px;
+    height: 70px;
+}
+#close_admin{
+    float: right;
+}
+#close_admin ul{
+    width: fit-content;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style: none;
+    color: #949EBD;
+}
+#close_admin ul li{
+    cursor: pointer;
+}
+#seeting_style{
+    margin: auto;
+}
+#closeIcons_style{
+    border: 1px solid #bbc0ce;
+    border-radius: 15px;
+    padding: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#name_admin{
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    font-weight: 550;
+    margin-top: 25px;
+}
+#Financial{
+    margin: 0;
+    padding: 0;
+    color: #949EBD;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#middle_div_Admin{
+    background-color: #F6F8FE;
+    margin: auto;
+    margin-top: 18px;
+    border-radius: 30px;
+    padding: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    height: 100%;
+}
+#nav_admin{
+    width: fit-content;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style: none;
+    color: #949EBD;
+}
+#seacher_Admin{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    outline: none;
+}
+#seacher_Admin::placeholder{
+    color: #949EBD;
+}
+#nav_admin_right{
+    width: fit-content;
+    gap: 20px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style: none;
+    color: #949EBD; 
+}
+#overView_style{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#pay_card{
+    background-color: #5E37FF;
+    color: #F6F8FE;
+    border-radius: 30px;
+    padding: 15px;
+}
+#payImg{
+    width:70px;
+}
+#paywords_style{
+    float: right;
+    margin: 12px;
+    padding: 0;
+    color: #bbc0ce;
+    font-size: 17px;
+}
+#code_card{
+    margin-top: 18px;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+#valid_card{
+    margin: 15px;
+    padding: 0;
+    margin-top: 0;
+
+}
+#up{
+    font-weight: 200;
+    color: #bbc0ce;
+    text-transform: uppercase;
+}
+#down{
+    font-weight: 500;
+}

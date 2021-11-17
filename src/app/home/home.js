@@ -1,8 +1,11 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Header from '../components/header'
 import Logo from '../../assets/img/logo.png'
 import RightSideImg from '../../assets/img/home_img.png'
 const Home =()=>{
+    useEffect(()=>{
+        document.body.style.backgroundColor = "#22222E"
+    },[])
     return (
         <div>
             <Header />

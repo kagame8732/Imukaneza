@@ -1,0 +1,43 @@
+@media only screen and (max-width:1267px) {
+      #right_side_admin{
+          display: none;
+      } 
+      #forPhoneProfile{
+          display: grid !important;
+          margin-top: 3px;
+      }
+}
+@media only screen and (max-width:1066px) {
+    #left_side_admin{
+        display: none;
+    } 
+    #forPhoneMenu{
+        display: grid !important;
+        margin-top: 3px;
+    }
+    
+}
+
+@media only screen and (max-width:404px) {
+    #seacher_Admin{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:579px) {
+    .MMBS{
+        margin-bottom: 20px !important;
+    }
+}  
+@media only screen and (max-width:583px) {
+    #left_side_singup{
+        display: none;
+    }
+} 
+ 
+#forPhoneMenu{
+    display: none; 
+}
+#forPhoneProfile{
+    display: none;
+}

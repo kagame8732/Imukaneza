@@ -1,12 +1,11 @@
 @import "./home.css";
 @import "./header.css";
-@import "./admin.css";
+@import "./responsive.css";
+@import "./dashboard.css";
+@import "./registration.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body{
-    padding-left: 10%;
-    padding-right: 10%;
     font-family: 'Poppins', sans-serif;
-    padding-top: 10px;
 }
 @media only screen and (max-width:794px) {
     body{

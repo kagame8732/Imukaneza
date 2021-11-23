@@ -9,26 +9,32 @@ import AssignmentRoundedIcon from '@material-ui/icons/AssignmentRounded';
 import img_doc from '../../../assets/img/documents.svg'
 const LeftSideMenu =(props) =>{
       // this array of menu 
+
     const navigations =[
         {
             name:"Overview",
             icon:HomeRoundedIcon,
+            url:"/dashboard"
         },
         {
             name:"Service",
             icon:RoomServiceRoundedIcon,
+            url:""
         },
         {
             name:"Messages",
             icon:ForumRoundedIcon,
+            url:""
         },
         {
             name:"Profile",
             icon:PersonRoundedIcon,
+            url:"/profile"
         },
         {
-            name:"Documents",
+            name:"Report",
             icon:AssignmentRoundedIcon,
+            url:"/report"
         }
     ]
     return (
@@ -39,7 +45,7 @@ const LeftSideMenu =(props) =>{
              {/* navigation style  */}
             {
                 navigations.map((item,key)=>{
-                    return <Navigation name={item.name} theOne={props.whichOne} icon={item.icon} key={key}/>
+                    return <Navigation name={item.name} url={item.url} theOne={props.whichOne} icon={item.icon} key={key}/>
                 })
             }
             {

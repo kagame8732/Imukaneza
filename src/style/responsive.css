@@ -34,6 +34,15 @@
         display: none;
     }
 } 
+@media only screen and (max-width:372px) {
+    #name_side_profile_card{
+        display: none;
+    }
+    #profile_cord_name_rs{
+
+        width: 100%;
+    }
+}
  
 #forPhoneMenu{
     display: none; 

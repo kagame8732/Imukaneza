@@ -1,19 +1,12 @@
-import React, { useEffect,useState } from "react";
-import LeftSideMenu from "../../components/leftSidemenu";
+import React, { useEffect } from "react";
 import RightSideMenu from "../../components/rightSidemenu";
-import MiddleSide from "../../components/middleSide";
-import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
+import MiddleHeader from "../../widgets/middleHeaders";
+import PayCard from "../../widgets/pay";
+import LeftSideMenu from "../../components/leftSidemenu";
+import LineChart from "../../widgets/line.chart";
+import BarChart from "../../widgets/bar.chart";
+import DoughnutChart from "../../widgets/doughnut.chart";
 const Dashboard =() =>{
-    const [state, setState] = useState({
-        left: false,
-      });
-    const toggleDrawer = (anchor, open) => (event) => {
-        if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-          return;
-        }
-    
-        setState({ ...state, [anchor]: open });
-      };
     useEffect(()=>{
         document.body.style.padding = "0";
         document.body.style.margin  = "0";
@@ -22,14 +15,7 @@ const Dashboard =() =>{
     return (
         <div>
             {/* this Phone version */}
-            <SwipeableDrawer
-            anchor={'right'}
-            open={state['right']}
-            onClose={toggleDrawer('right', false)}
-            onOpen={toggleDrawer('right', true)}
-          >
-                   <LeftSideMenu whichOne="Overview" id="phoneMenu" isPhone={true} />
-          </SwipeableDrawer>
+           
             <div className="row col-12 noM">
                 <div className="col-sm-2 noM" id="left_side_admin">
                     {/* this Left side version for pc*/}
@@ -37,7 +23,43 @@ const Dashboard =() =>{
                 </div>
                 <div className="col-sm noM" id="middle_side_admin">
                     {/* this Middle side version for all */}
-                    <MiddleSide toggle={toggleDrawer} />
+                    {/* <MiddleSide  name="Overview"/> */}
+                    <div id="middle_div_Admin">
+            {/* Middle Header */}
+            <MiddleHeader name="Overview" />
+            <div className="row col-12 noM">
+            <div className="col-sm-5 mBA MMBS">
+                <PayCard className="mBA"/></div>
+            <div className="col-sm noM MMBS"  id="right_side_admin_dash">
+                <div className="row col-12 noM ">
+                    <div className="col-sm noM">
+                        <p id="left_side_pf_l_S">Exchange rates</p>
+                    </div>
+                    <div className="col-sm noM">
+                       <p id="right_side_pf_l_S"> Frw </p>
+                    </div>
+                </div>
+                <LineChart/>
+            </div>
+        </div>
+        <div className="row col-12" id="margin_top">
+            <div className="col-sm m-12 MMBS" id="right_side_admin_dash">
+            <div className="row col-12 noM ">
+                    <div className="col-sm noM">
+                        <p id="left_side_pf_l_S">Last cost</p>
+                    </div>
+                    <div className="col-sm noM">
+                       <p id="right_side_pf_l_S"> Frw </p>
+                    </div>
+                </div>
+            <BarChart />
+            </div>
+            <div className="col-sm-4 MMBS" id="right_side_admin_dash">
+             <p id="left_side_pf_l_S">Efficiency</p>
+                    <DoughnutChart />
+            </div>
+        </div>
+    </div>
                 </div>
                 <div className="col-sm-3 noM" id="right_side_admin">
                     {/* this Right side version for pc*/}

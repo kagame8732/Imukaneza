@@ -1,9 +1,11 @@
 import React from "react";
+import {useHistory} from "react-router-dom"
 const Navigation =(porps) =>{
     // navigation style file
+    const history = useHistory()
     return (
        <div>
-           <ul id="list_navigation">
+           <ul id="list_navigation" onClick={()=>history.push(porps.url)}>
                {
                    porps.theOne === porps.name ?
                    <>

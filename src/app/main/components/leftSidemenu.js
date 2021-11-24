@@ -3,7 +3,7 @@ import Logo from '../../../assets/img/logo.png'
 import Navigation from "./navigation";
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 import RoomServiceRoundedIcon from '@material-ui/icons/RoomServiceRounded';
-import ForumRoundedIcon from '@material-ui/icons/ForumRounded';
+import SettingsIcons from '@material-ui/icons/Settings';
 import PersonRoundedIcon from '@material-ui/icons/PersonRounded';
 import AssignmentRoundedIcon from '@material-ui/icons/AssignmentRounded';
 import img_doc from '../../../assets/img/documents.svg'
@@ -22,11 +22,6 @@ const LeftSideMenu =(props) =>{
             url:""
         },
         {
-            name:"Messages",
-            icon:ForumRoundedIcon,
-            url:""
-        },
-        {
             name:"Profile",
             icon:PersonRoundedIcon,
             url:"/profile"
@@ -35,7 +30,12 @@ const LeftSideMenu =(props) =>{
             name:"Report",
             icon:AssignmentRoundedIcon,
             url:"/report"
-        }
+        },
+        {
+            name:"Settings",
+            icon:SettingsIcons,
+            url:"/settings"
+        },
     ]
     return (
         // this Left Side of Dashboard

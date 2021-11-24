@@ -27,7 +27,7 @@ const Profile =() =>{
                         <div className="col-sm noM">
                             <ProfileCard/>
                         </div>
-                        <div className="col-sm noM" id="margin_top">
+                        <div className="col-sm noM">
                             <ListCard />
                         </div>
                     </div>

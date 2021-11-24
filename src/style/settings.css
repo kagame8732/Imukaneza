@@ -1,0 +1,63 @@
+#img_setting_whole_div{
+    position: relative;
+    background-color: aquamarine;
+    border-radius: 100%;
+    width: fit-content;
+}
+#img_Setting{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+#icon_edit_setting{
+   position: absolute;
+   bottom: 20px;
+   right: 0;
+   background-color: #5E37FF;
+   color: white;
+   cursor: pointer;
+   border-radius: 100%;
+   padding: 4px;
+
+}
+#mAuto{
+    margin: auto;
+}
+#name_on_setting{
+    font-size: 20px;
+}
+#name_on_location{
+    font-size: 14px;
+    color: #949EBD;
+}
+#setting_inputs_name{
+    font-size: 14px;
+    color: #818181;
+    padding: 6px;
+}
+#setting_inputs{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 0.28571429rem;
+    line-height: 1.21428571em;
+    padding: 0.67857143em 1em;
+    font-size: 1em;
+    background-color: #FBFBFB !important;
+    text-align: center;
+}
+#margin_top_botton_setting{
+    margin-top: 20px !important;
+}
+#setting_button{
+    margin: auto;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    background-color: #5E37FF;
+    color: white;
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-top: 70px;
+}

@@ -5,6 +5,7 @@ import Login from '../app/main/pages/registration/login'
 import Signup from '../app/main/pages/registration/signup';
 import Profile from '../app/main/pages/profile/profile';
 import Report from '../app/main/pages/report/report';
+import Settings from '../app/main/pages/settings/settings';
 const Routes = () => {
     return(
         // this How Routing is done
@@ -28,6 +29,11 @@ const Routes = () => {
                     exact 
                     path="/report" 
                     component={Report} 
+                />
+                <Route 
+                    exact 
+                    path="/settings" 
+                    component={Settings} 
                 />
                 <Route 
                     exact 

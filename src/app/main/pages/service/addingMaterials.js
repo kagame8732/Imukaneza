@@ -20,10 +20,13 @@ const ServiceAdd =(props) =>{
                 {/* this Left side version for pc*/}
                 <LeftSideMenu whichOne="Service" isPhone={false}/>
             </div>
-            <div className="col-sm noM" id="middle_side_admin">
+            <div className="col-sm margin-0" id="middle_side_admin">
                 {/* this Middle side version for all */}
-                <div id="middle_div_Admin">
+                <div id="middle_div_Admin" className="">
                     <MiddleHeader name="Service"  />
+                    <div className="container  margin-0 ">
+                    <div className="row col-12 margin-0">
+                            <div className="col-sm-12 form margin-0 p-5">
                     <label id="lable_adding_service">Service Type</label><br/>
                     <select  id="selcter_adding_service" onChange={((e)=>{setTypeService(e.target.value)})}>
                     <option value={props.location.state.ServiceType} selected disabled hidden >{props.location.state.ServiceType}</option>
@@ -56,6 +59,9 @@ const ServiceAdd =(props) =>{
                     }
                    
                     <button id="next_service">Next</button>
+                    </div>
+                    </div>
+                    </div>
                 </div>
             </div>
             <div className="col-sm-3 noM" id="right_side_admin">

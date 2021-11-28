@@ -12,10 +12,10 @@ const Signup =(props) =>{
     return (
        <div>
                {/* header one  */}
-           <Header/>
+           {/* <Header/> */}
            <div className="container" id="centre_div_login">
             <div className="row col-12">
-            <div className="col-sm-6" id="signup_width">
+            <div className="col-sm-6 form mt-5" id="signup_width">
                 <p id="header_signup">
                 To Start, Please Provide Your Basic Info.
                 </p>
@@ -36,11 +36,11 @@ const Signup =(props) =>{
                     <LockIcon  id="icon"/>
                     <input type="password" placeholder="Confirm-Password" id="input_signup"/>
                 </div>
-                <button className="btn btn" id="login_button" >Continue</button>
+                <button className="btn btn btn_color_dark" id="login_button" >Create</button>
                 <p id="icon_words_login"> <LockIcon/>100% privacy guaranteed</p>
                 <ul id="list_style_none_signup"onClick={()=>{history.push('/')}}>
                     <li>Have an account?</li>
-                    <li id="active_login">Sign in</li>
+                    <li className="color_primary" id="active_login">Sign in</li>
                 </ul>
                 <div id="lass">
                 <p id="ending_signup">
@@ -51,9 +51,9 @@ const Signup =(props) =>{
                 </p>
                 </div>
             </div>
-            <div className="col-sm-2" id="left_side_singup">
+            {/* <div className="col-sm-2" id="left_side_singup">
             <img id="image_frsit_sct_signup" src={Logo} alt="Doctor"/>
-            </div>
+            </div> */}
             </div>
             </div>
        </div>

@@ -7,7 +7,7 @@ import  ArrowUpward from '@material-ui/icons/ArrowUpward';
 const RightSideMenu =() =>{
     // Right side for dashboard
     return (
-        <div className="m_r_l">
+        <div className="m_r_l p-5">
             <div className="row col-12">
                 <div className="col-sm">
                 <Avatar id="img_whole">
@@ -27,8 +27,8 @@ const RightSideMenu =() =>{
             <p id="name_admin">Hirwa <br/>Washington</p>
             <p id="Financial">Financial analytics</p>
             <div id="div_admin_count">
-                <p id="tiitle_conut">Total Users</p>
-                <p id="number_conut">{`${new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(122324)}`}</p>
+                <p id="tiitle_conut">Total Ride</p>
+                <p className="" id="number_conut">{`${new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(122324)}`}</p>
             </div>
             <p id="recentActivitiesTiltle">Recent Activities</p>
             <p id="recentActivitiesTiltleSmall">Today</p>

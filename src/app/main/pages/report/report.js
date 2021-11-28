@@ -21,8 +21,9 @@ const Report =() =>{
                 {/* this Middle side version for all */}
                 <div id="middle_div_Admin">
                     <MiddleHeader name="Report"  />
-                    <div className="row col-12 noM">
-                            <div className="col-sm-8 noM">
+                    <div className="container  margin-0 ">
+                    <div className="row col-12 margin-0">
+                            <div className="col-sm-12 form margin-0 p-5">
                                 <p id="header_profile">Please write a below related to your inquiry.If you
                                 don't find what you need,fill out Report form
                                 </p>
@@ -30,8 +31,9 @@ const Report =() =>{
                                 <input type="text" id="nameInputReport" />
                                 <label id="lable_report">Describe Your Report</label><br/>
                                 <textarea type="text" id="nameTextAreaReport"></textarea>
-                                <button id="reportButton">Submit</button>
+                                <button className="btn btn text-white btn_color_dark">Submit</button>
                             </div>
+                    </div>
                     </div>
                 </div>
             </div>

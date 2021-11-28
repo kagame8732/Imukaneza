@@ -19,3 +19,38 @@ body {
         padding-right: 5%;
     }
 }
+
+.color_White {
+    color: white !important;
+}
+
+.color_dark {
+    color: #212121 !important;
+}
+
+.color_primary {
+    color: #378f66 !important;
+}
+
+.btn_color_White {
+    background-color: white !important;
+}
+
+.btn_color_dark {
+    background-color: #212121 !important;
+}
+
+.btn_color_primary {
+    background-color: #378f66 !important;
+}
+
+.btn-dimension{
+    width: 80px !important;
+}
+.left{
+    float: left !important;
+}
+
+.right{
+    float: right !important;
+}

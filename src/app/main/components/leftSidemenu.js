@@ -2,7 +2,7 @@ import React from "react";
 import Logo from '../../../assets/img/logo.png'
 import Navigation from "./navigation";
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
-import RoomServiceRoundedIcon from '@material-ui/icons/RoomServiceRounded';
+import CompassCalibration from '@material-ui/icons/CompassCalibration';
 import SettingsIcons from '@material-ui/icons/Settings';
 import PersonRoundedIcon from '@material-ui/icons/PersonRounded';
 import AssignmentRoundedIcon from '@material-ui/icons/AssignmentRounded';
@@ -18,8 +18,8 @@ const LeftSideMenu =(props) =>{
         },
         {
             name:"Service",
-            icon:RoomServiceRoundedIcon,
-            url:""
+            icon:CompassCalibration,
+            url:"/service"
         },
         {
             name:"Profile",

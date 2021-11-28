@@ -12,8 +12,6 @@ const Report =() =>{
     },[])
     return (
         <div>
-        {/* this Phone version */}
-       
         <div className="row col-12 noM">
             <div className="col-sm-2 noM" id="left_side_admin">
                 {/* this Left side version for pc*/}

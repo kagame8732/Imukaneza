@@ -55,11 +55,11 @@ const Home =()=>{
                 onClose={handleClose}
                 >
                   
-                        <MenuItem id="color_White">Home</MenuItem>
-                        <MenuItem id="color_White">About</MenuItem>
-                        <MenuItem id="color_White">Product</MenuItem>
-                        <MenuItem id="color_White">Pricing</MenuItem>
-                        <MenuItem id="color_White"> <button id="contact_us_button">Contact</button></MenuItem>
+                        <MenuItem id="color_primary">Home</MenuItem>
+                        <MenuItem id="color_primary">About</MenuItem>
+                        <MenuItem id="color_primary">Product</MenuItem>
+                        <MenuItem id="color_primary">Pricing</MenuItem>
+                        <MenuItem id="color_primary"> <button id="contact_us_button">Contact</button></MenuItem>
             
     
                 </Menu>

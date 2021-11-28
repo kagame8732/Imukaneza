@@ -3,37 +3,46 @@
     padding: 0 !important;
     margin: 0 !important;
 } */
-.noM{
+
+.noM {
     margin: 0 !important;
     padding: 0 !important;
 }
-#left_side_admin{
-  color: #949EBD;
+
+#left_side_admin {
+    color: #949EBD;
 }
-.active{
-    color: #5E37FF !important ;
+
+.active {
+    color: #5E37FF !important;
 }
+
+
 /* #middle_side_admin{
     background-color: blue;
 } */
 
-#left_side_admin_logo{
+#left_side_admin_logo {
     width: 100px;
 }
+
 .m_r_l {
     padding-left: 30px;
     padding-right: 30px;
-    padding-top:30px ;
+    padding-top: 30px;
     width: 100% !important;
+    background-color: #fff !important;
 }
-#name_web_left_side{
+
+#name_web_left_side {
     color: #949EBD;
     font-weight: 500;
     margin: 0;
     padding: 0;
     margin-bottom: 45px;
 }
-#list_navigation{
+
+#list_navigation {
     width: fit-content;
     margin: 0;
     padding: 0;
@@ -43,39 +52,48 @@
     list-style: none;
     margin-bottom: 20px;
 }
-#list_navigation{
+
+#list_navigation {
     cursor: pointer;
 }
-#list_navigation:hover{
+
+#list_navigation:hover {
     color: #5E37FF;
 }
-#list_navigation #one{
+
+#list_navigation #one {
     color: grey !important;
 }
-#list_navigation #two{
+
+#list_navigation #two {
     margin: auto !important;
 }
-#admin_img_style{
+
+#admin_img_style {
     width: 80%;
     margin-top: 45px;
 }
-#admin_img_style_phone{
+
+#admin_img_style_phone {
     width: 100px;
     margin-top: 45px;
 }
-#report_style{
+
+#report_style {
     font-size: 18px;
     padding: 0;
     margin: 0;
     margin-top: 15px;
     color: black;
 }
-#report_details_style{
+
+#report_details_style {
     padding: 0;
     margin: 0;
-    font-size: 14px;   
+    font-size: 14px;
 }
-#download_button_admin{
+
+#download_button_admin {
     margin: auto;
     width: 90%;
     border: none;
@@ -86,14 +104,17 @@
     border-radius: 22px;
     margin-top: 20px;
 }
-#img_whole{
+
+#img_whole {
     width: 70px;
     height: 70px;
 }
-#close_admin{
+
+#close_admin {
     float: right;
 }
-#close_admin ul{
+
+#close_admin ul {
     width: fit-content;
     gap: 30px;
     padding: 0;
@@ -103,20 +124,24 @@
     list-style: none;
     color: #949EBD;
 }
-#close_admin ul li{
+
+#close_admin ul li {
     cursor: pointer;
 }
-#seeting_style{
+
+#seeting_style {
     margin: auto;
 }
-#closeIcons_style{
+
+#closeIcons_style {
     border: 1px solid #bbc0ce;
     border-radius: 15px;
     padding: 5px;
     padding-top: 4px;
     padding-bottom: 4px;
 }
-#name_admin{
+
+#name_admin {
     font-size: 35px;
     margin: 0;
     padding: 0;
@@ -124,14 +149,16 @@
     font-weight: 550;
     margin-top: 25px;
 }
-#Financial{
+
+#Financial {
     margin: 0;
     padding: 0;
     color: #949EBD;
     font-size: 16px;
     margin-top: 10px;
 }
-#middle_div_Admin{
+
+#middle_div_Admin {
     background-color: #F6F8FE;
     margin: auto;
     border-radius: 30px;
@@ -140,7 +167,8 @@
     padding-right: 45px;
     height: 100%;
 }
-#nav_admin{
+
+#nav_admin {
     width: fit-content;
     gap: 10px;
     padding: 0;
@@ -150,16 +178,19 @@
     list-style: none;
     color: #949EBD;
 }
-#seacher_Admin{
+
+#seacher_Admin {
     border: none;
     background-color: transparent;
     font-size: 16px;
     outline: none;
 }
-#seacher_Admin::placeholder{
+
+#seacher_Admin::placeholder {
     color: #949EBD;
 }
-#nav_admin_right{
+
+#nav_admin_right {
     width: fit-content;
     gap: 20px;
     float: right;
@@ -168,133 +199,155 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     list-style: none;
-    color: #949EBD; 
+    color: #949EBD;
 }
-#overView_style{
+
+#overView_style {
     font-size: 50px;
     font-weight: 500;
     margin-top: 5px;
 }
-.mBA{
+
+.mBA {
     margin-top: auto !important;
 }
-#pay_card{
+
+#pay_card {
     background-color: #5E37FF;
     color: #F6F8FE;
     border-radius: 30px;
     padding: 15px;
 }
-#payImg{
-    width:70px;
+
+#payImg {
+    width: 70px;
 }
-#paywords_style{
+
+#paywords_style {
     float: right;
     margin: 12px;
     padding: 0;
     color: #bbc0ce;
     font-size: 17px;
 }
-#code_card{
+
+#code_card {
     margin-top: 18px;
     font-size: 18px;
     margin-bottom: 18px;
 }
-#valid_card{
+
+#valid_card {
     margin: 15px;
     padding: 0;
     margin-top: 0;
-
 }
-#up{
+
+#up {
     font-weight: 200;
     color: #bbc0ce;
     text-transform: uppercase;
 }
-#down{
+
+#down {
     font-weight: 500;
 }
-#right_side_admin_dash{
+
+#right_side_admin_dash {
     background-color: white;
     padding: 27px !important;
     border-radius: 22px;
-   
 }
-.m-12{
+
+.m-12 {
     margin-right: 25px;
 }
-#width100{
+
+#width100 {
     width: 100% !important;
 }
-#left_side_pf_l_S{
+
+#left_side_pf_l_S {
     font-size: 18px;
     font-weight: 600;
 }
-#right_side_pf_l_S{
+
+#right_side_pf_l_S {
     float: right;
 }
-#margin_top{
+
+#margin_top {
     margin: 0;
     padding: 0;
     margin-top: 25px;
 }
-#div_admin_count{
+
+#div_admin_count {
     background-color: #F6F8FE;
     border-radius: 22px;
     padding: 22px;
     margin-top: 30px;
     margin-right: 20px;
-
 }
-#tiitle_conut{
+
+#tiitle_conut {
     font-size: 14px;
     font-weight: 500;
     color: #949EBD;
     margin: 0;
     padding: 0;
 }
-#number_conut{
+
+#number_conut {
     font-size: 50px;
     font-weight: 600;
 }
-#recentActivitiesTiltle{
+
+#recentActivitiesTiltle {
     margin: 0;
     padding: 0;
     font-size: 20px;
     font-weight: 600;
     margin-top: 25px;
 }
-#circ_div{
+
+#circ_div {
     padding: 13px;
     border-radius: 17px;
-    
 }
-#maginA{
+
+#maginA {
     margin: auto;
     margin-left: 3px;
 }
-#recentActivitiesdivName{
+
+#recentActivitiesdivName {
     margin: 0;
     padding: 0;
     font-size: 18px;
     font-weight: 500;
 }
-#recentActivitiesdivStyle{
+
+#recentActivitiesdivStyle {
     margin: 0;
     padding: 0;
     font-size: 14px;
     color: #949EBD;
     font-weight: 400;
 }
-#recentActivitiesdivMoney{
+
+#recentActivitiesdivMoney {
     margin: 0;
     padding: 0;
     font-weight: 500;
     width: 100%;
 }
-#recentActivitiesTiltleSmall{
+
+#recentActivitiesTiltleSmall {
     color: #949EBD;
     margin-top: 10px;
 }
-#phoneMenu{
-    width: 90% !important;  
+
+#phoneMenu {
+    width: 90% !important;
 }

@@ -8,11 +8,13 @@
 @import "./settings.css";
 @import "./profile.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    background-color: #f4f8f7 !important;
 }
+
 @media only screen and (max-width:794px) {
-    body{
+    body {
         padding-left: 5%;
         padding-right: 5%;
     }

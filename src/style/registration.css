@@ -5,36 +5,40 @@
     position: sticky;
     top: 0;
     font-family: "Raleway", sans-serif;
-  
     background-color: white;
-    -webkit-box-shadow: -1px 8px 6px -7px rgba(0, 0, 0, 0.16);
-    -moz-box-shadow: -1px 8px 6px -7px rgba(0, 0, 0, 0.16);
-    box-shadow: -1px 8px 6px -7px rgba(0, 0, 0, 0.16);
-  }
-  #header_login_page {
+    -webkit-box-shadow: -1px 8px 6px -7px rgba(104, 104, 104, 0.16);
+    -moz-box-shadow: -1px 8px 6px -7px rgba(104, 104, 104, 0.16);
+    box-shadow: -1px 8px 6px -7px rgba(104, 104, 104, 0.16);
+}
+
+#header_login_page {
     font-size: x-large;
     font-weight: 800;
     font-family: "Raleway", sans-serif;
     padding: 12px;
     cursor: pointer;
-  }
-  #centre_div_login {
+}
+
+#centre_div_login {
     font-family: "Raleway", sans-serif;
-  }
-  #form_login {
+}
+
+#form_login {
     background-color: white;
     margin-left: auto;
+    margin-top: 100px;
     margin-right: auto;
-    width: 475px;
-    padding: 15px;
+    padding: 30px;
     padding-bottom: 5px !important;
-    border: 1px solid rgba(34, 36, 38, 0.15);
     border-radius: 5px;
-  }
-  #form_login label {
+    float: left;
+}
+
+#form_login label {
     font-size: small;
-  }
-  #form_login input {
+}
+
+#form_login input {
     width: 100%;
     outline: none;
     border: 1px solid rgba(34, 36, 38, 0.15);
@@ -42,82 +46,91 @@
     line-height: 1.21428571em;
     padding: 0.67857143em 1em;
     font-size: 1em;
-  }
-  #form_login input:focus {
+}
+
+#form_login input:focus {
     background-color: #F6F8FE;
-  }
-  #welcome {
+}
+
+#welcome {
     font-family: "Raleway", sans-serif;
     font-size: x-large;
     font-weight: 700;
     line-height: 15px;
-  }
-  #sign_in_below {
+}
+
+#sign_in_below {
     font-family: "Raleway", sans-serif;
-  }
-  #login_button {
+}
+
+#login_button {
     margin-top: 20px;
     background-color: #5E37FF;
     color: white;
     width: 100%;
     font-weight: 700;
     margin-bottom: 20px;
-  }
-  #list_style_none {
+}
+
+#list_style_none {
     list-style: none;
     display: inline;
     font-size: small;
     margin: 0;
     padding: 0;
     cursor: pointer;
-  }
-  #list_style_none li {
+}
+
+#list_style_none li {
     list-style: none;
     display: inline;
     line-height: 12px;
-  }
-  #active_login {
+}
+
+#active_login {
     color: #5E37FF;
     padding-left: 5px;
     font-size: small;
-  }
-  #active_forgrt {
+}
+
+#active_forgrt {
     color: #5E37FF;
     margin-top: 20px;
     font-size: small;
     line-height: 2px;
-  }
-  #icon_words_login {
+}
+
+#icon_words_login {
     font-size: small;
     margin-top: 40px;
-  }
-  @media only screen and (max-width: 310px) {
+}
+
+@media only screen and (max-width: 310px) {
     #header_of_page_login {
-      width: 303px;
+        width: 303px;
     }
-  }
-  #about_us_cursur {
+}
+
+#about_us_cursur {
     cursor: pointer;
-  }
-  #get_started_button {
+}
+
+#get_started_button {
     background-color: #5E37FF;
     color: white;
     margin-top: -5px !important;
-  }
-  
-
-
-
+}
 
 
 /* signup style */
 
-  #header_signup {
+#header_signup {
     font-size: x-large;
     font-weight: 500;
     font-family: "Raleway", sans-serif;
-  }
-  #div_input_signup_select {
+}
+
+#div_input_signup_select {
     background-color: white;
     padding: 8px;
     border: 1px solid rgba(34, 36, 38, 0.15);
@@ -126,8 +139,9 @@
     color: black !important;
     font-size: 14px;
     margin-top: 12px;
-  }
-  #div_input_signup {
+}
+
+#div_input_signup {
     background-color: white;
     padding: 8px;
     border: 1px solid rgba(34, 36, 38, 0.15);
@@ -135,72 +149,84 @@
     line-height: 1.21428571em;
     color: rgb(224, 224, 224);
     margin-top: 12px;
-  }
-  
-  #div_input_signup input {
+}
+
+#div_input_signup input {
     border: none;
     outline: none;
     background: none;
     width: 80%;
-  }
-  .select_signup {
+}
+
+.select_signup {
     width: 100%;
-  }
-  #icon {
+}
+
+#icon {
     font-size: large;
-  }
-  #list_style_none_signup {
+}
+
+#list_style_none_signup {
     list-style: none;
     display: inline;
     font-size: small;
     padding: 0;
     margin: 0;
     cursor: pointer;
-  }
-  #list_style_none_signup li {
+}
+
+#list_style_none_signup li {
     list-style: none;
     display: inline;
     line-height: 12px;
-  }
-  #ending_signup {
+}
+
+#ending_signup {
     font-size: small;
     line-height: 20px !important;
     margin: 0;
     padding: 0;
-  }
-  #lass {
+}
+
+#lass {
     margin-top: 20px;
-  }
-  #left_side_singup {
+}
+
+#left_side_singup {
     text-align: center;
-  }
-  #div_input_signup input::placeholder {
+}
+
+#div_input_signup input::placeholder {
     font-size: small;
     padding-left: 7px !important;
-  }
-  @media only screen and (max-width: 251px) {
+}
+
+@media only screen and (max-width: 251px) {
     #signup_width {
-      width: 251px !important;
+        width: 251px !important;
     }
     #div_input_signup {
-      width: 251px !important;
+        width: 251px !important;
     }
-  }
-  #active_forgrt {
+}
+
+#active_forgrt {
     cursor: pointer;
-  }
-  #error_header {
+}
+
+#error_header {
     font-size: xx-large;
     font-weight: 700;
-  }
-  #error_word {
+}
+
+#error_word {
     margin: 0;
     font-size: 15px;
-  }
-  #error_word b {
+}
+
+#error_word b {
     color: #5E37FF;
     text-decoration: underline;
     cursor: pointer;
     font-weight: 300 !important;
-  }
-  
+}

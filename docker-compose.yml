@@ -1,0 +1,14 @@
+version: '3' 
+
+services:
+  imukaneza-admin: 
+    image: imukaneza
+    ports:
+      - "9008:80"
+    networks:
+      - imukaneza-front-net 
+    restart: always
+
+networks: 
+  imukaneza-front-net:
+    external: false

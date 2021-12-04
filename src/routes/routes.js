@@ -53,6 +53,7 @@ const Routes = () => {
                     component={Dashboard} 
                 />
         </Switch>
+
     )
 }
 export default Routes;

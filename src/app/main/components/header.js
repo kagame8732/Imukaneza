@@ -1,21 +1,12 @@
-import React from "react";
+import React, {  } from 'react'
 import { useHistory } from "react-router-dom";
-const Header = () => {
+const Header =() =>{
     const history = useHistory();
-    return (
+    return(
         // header For Login and Singup
         <div id="header_of_page_login">
-            <p
-                id="header_login_page"
-                className="color_dark"
-                onClick={() => {
-                    history.push("/");
-                }}
-            >
-                {" "}
-                imukaneza{" "}
-            </p>{" "}
-        </div>
-    );
-};
-export default Header;
+                <p id="header_login_page" className="color_dark" onClick={()=>{history.push('/')}}>imukaneza</p>
+            </div>
+    )
+}
+export default Header

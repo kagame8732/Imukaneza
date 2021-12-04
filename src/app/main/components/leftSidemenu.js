@@ -41,7 +41,7 @@ const LeftSideMenu =(props) =>{
         // this Left Side of Dashboard
         <div className="m_r_l p-5">
             <img src={Logo} alt="" id="left_side_admin_logo"/>
-            <p id="name_web_left_side">imukaneza</p>
+            <p id="name_web_left_side">Creators Agency</p>
              {/* navigation style  */}
             {
                 navigations.map((item,key)=>{

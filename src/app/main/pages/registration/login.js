@@ -14,7 +14,7 @@ const Login = (props) => {
                 <div className="row">
                     <div id="form_login" className="col-sm-4 form mt-5">
                         <p id="welcome">Welcome Back</p>
-                        <p id="sign_in_below">Please sign in below or learn more about imukaneza.</p>
+                        <p id="sign_in_below">Please sign in below or learn more about Creators Agency.</p>
                         <label>Email Address</label><br />
                         <input type="text" /><br />
                         <label>Password</label><br />

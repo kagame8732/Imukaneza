@@ -24,7 +24,7 @@ const RightSideMenu =() =>{
                 </div>
             </div>
 
-            <p id="name_admin">Nike <br/>Washington</p>
+            <p id="name_admin">Hirwa <br/>Washington</p>
             <p id="Financial">Financial analytics</p>
             <div id="div_admin_count">
                 <p id="tiitle_conut">Total Ride</p>

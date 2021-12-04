@@ -46,7 +46,7 @@ const SettingsPage =() =>{
                             </div>
                             <div className="col-sm">
                             <label id="setting_inputs_name">Email</label><br/>
-                                <input  defaultValue="info@imukaneza.rw" id="setting_inputs"/>
+                                <input  defaultValue="Hirwaaldo1@gmail.com" id="setting_inputs"/>
                             </div>
                         </div>
                         <div className="row col-12 margin-0" id="margin_top_botton_setting">

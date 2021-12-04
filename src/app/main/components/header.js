@@ -5,7 +5,7 @@ const Header =() =>{
     return(
         // header For Login and Singup
         <div id="header_of_page_login">
-                <p id="header_login_page" className="color_dark" onClick={()=>{history.push('/')}}>imukaneza</p>
+                <p id="header_login_page" className="color_dark" onClick={()=>{history.push('/')}}>Creators Agency</p>
             </div>
     )
 }

@@ -23,7 +23,7 @@ const Service =() =>{
                 {/* this Middle side version for all */}
                 <div id="middle_div_Admin">
                     <MiddleHeader name="Service"  />
-                    <p id="service_small_header">We manage a fleet of professionally cleaned service at our Creators Agency<br/>
+                    <p id="service_small_header">We manage a fleet of professionally cleaned service at our imukaneza<br/>
                     We has service options when you need to move no need to wait.
                     </p>
                     <div className="row col-12" id="service_cards">

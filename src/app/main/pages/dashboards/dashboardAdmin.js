@@ -29,8 +29,9 @@ const Dashboard =() =>{
             <MiddleHeader name="Overview" />
             <div className="row col-12 noM">
             <div className="col-sm-5 mBA MMBS">
-                <PayCard className="mBA"/></div>
-            <div className="col-sm noM MMBS"  id="right_side_admin_dash">
+                {/* <PayCard className="mBA"/> */}
+            </div>
+            <div className="col-sm-12 noM MMBS"  id="right_side_admin_dash">
                 <div className="row col-12 noM ">
                     <div className="col-sm noM">
                         <p id="left_side_pf_l_S">Exchange rates</p>

@@ -9,7 +9,7 @@ const ProfileCard =(porps) =>{
                     <p className="noM" id="profile_cord_name">Names</p>
                 </div>
                 <div className="col-6 noM" >
-                <p className="noM" id="profile_cord_name_rs">Hirwa Aldo</p>
+                <p className="noM" id="profile_cord_name_rs">Nike </p>
                 </div>
                 
         </div>
@@ -29,7 +29,7 @@ const ProfileCard =(porps) =>{
                     <p  id="profile_cord_name">Email</p>
                 </div>
                 <div className="col-6 noM" >
-                <p className="noM" id="profile_cord_name_rs">Hirwaaldo1@gmail.com</p>
+                <p className="noM" id="profile_cord_name_rs">info@imukaneza.rw</p>
                 </div>
                 
         </div>

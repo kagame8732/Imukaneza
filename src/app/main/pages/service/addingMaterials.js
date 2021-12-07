@@ -49,7 +49,7 @@ const ServiceAdd =(props) =>{
                             <label id="lable_adding_service">Your Driver</label><br/>
                             <select  id="selcter_adding_service">
                             <option value="" selected disabled hidden>Select Your Driver</option>
-                            <option value="Ride" >Hirwa Mucyo</option>
+                            <option value="Ride" >Nike Mucyo</option>
                             <option value="Packaging">Dushime Dose</option>
                             </select>
                         </>:

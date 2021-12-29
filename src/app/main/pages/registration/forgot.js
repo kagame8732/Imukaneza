@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 export default class Forgot extends Component {
     handleSubmit = e => {
         e.preventDefault();
@@ -38,12 +39,12 @@ export default class Forgot extends Component {
                                 id="login_button"
                             > Sign in</button>
 
-                            <li><Link
+                            {/* <li><Link
                                 to={'/'}
                                 className="color_primary"
                                 id="active_login"
                             >Sign in
-                            </Link></li>
+                            </Link></li> */}
                         </div>
                     </div>
                 </div>

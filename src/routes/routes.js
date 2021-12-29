@@ -21,8 +21,6 @@ const Routes = () => {
                 path="/"
                 component={Login}
             />
-
-
             <Route
                 exact
                 path="/signup"

@@ -1,26 +1,25 @@
-import React, { Component } from 'react';
-import axios from 'axios';
+import React, { Component } from "react";
+import axios from "axios";
+import { Redirect } from "react-router-dom";
 
 export default class Verify extends Component {
-    function useQuery() {
-    return new URLSearchParams(useLocation().search);
-}
+    render() {
+        axios
+            .patch("users/verify/" + `${this.props.match.params.token}`)
+            .then((Response) => {
+                alert("Account have been verified");
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+        return (
+            <>
+                <h2>
+                    {this.props.match.params.token}
+                </h2>
+                <Redirect to={'/'} />
 
-console.log(`${this.props.match.params} `)
-const data = new URLSearchParams(this.props.location.search).get('token')
-axios.patch('users/verify/' + `${this.props.match.params.token} `).then(
-    Response => {
-        // console.log(Response.data.message);
-        alert('Account have been verified')
+            </>
+        )
     }
-).catch(
-    err => {
-        console.log(err)
-    }
-)
-render() {
-    return (
-        <h1></h1>
-    )
-}
 }

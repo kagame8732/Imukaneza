@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import axios from 'axios';
 
 export default class Forgot extends Component {
     handleSubmit = e => {
@@ -7,9 +7,16 @@ export default class Forgot extends Component {
         const data = {
             email: this.email
         }
+        axios.post('/users/changepassword', data).then(
+            Response => {
+                console.log(Response)
+            }
+        ).catch(
+            err => {
+                console.log(err);
+            }
+        )
     }
-
-
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
@@ -38,17 +45,10 @@ export default class Forgot extends Component {
                                 className="btn btn btn_color_dark"
                                 id="login_button"
                             > Sign in</button>
-
-                            {/* <li><Link
-                                to={'/'}
-                                className="color_primary"
-                                id="active_login"
-                            >Sign in
-                            </Link></li> */}
-                        </div>
-                    </div>
-                </div>
-            </form>
+                        </div >
+                    </div >
+                </div >
+            </form >
         )
     }
 }

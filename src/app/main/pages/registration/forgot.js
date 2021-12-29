@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 
 export default class Forgot extends Component {
+    handleSubmit = e => {
+        e.preventDefault();
+        const data = {
+            email: this.email
+        }
+    }
+
+
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
@@ -29,6 +37,13 @@ export default class Forgot extends Component {
                                 className="btn btn btn_color_dark"
                                 id="login_button"
                             > Sign in</button>
+
+                            <li><Link
+                                to={'/'}
+                                className="color_primary"
+                                id="active_login"
+                            >Sign in
+                            </Link></li>
                         </div>
                     </div>
                 </div>

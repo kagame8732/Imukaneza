@@ -15,9 +15,9 @@ export default class Verify extends Component {
         return (
             <>
                 <h2>
-                    {this.props.match.params.token}
+                    {this.props.match.params.token, <Redirect to={'/'} />}
                 </h2>
-                <Redirect to={'/'} />
+
 
             </>
         )

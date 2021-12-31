@@ -18,24 +18,7 @@ class Dashboard extends Component {
     // componentDidMount() {
 
 
-    //     axios.get('user').then(
-    //         Response => {
-    //             console.log(Response);
-    //             this.setState({
-    //                 user: Response.data
-    //             })
-    //         },
-    //         err => {
-    //             console.log(err);
-    //         }
-    //     )
-    // }
-
     render() {
-
-        // if (this.state.user) {
-        //     <h2>Hi{this.state.user.firstName}{this.state.user.lastName}</h2>
-        // }
         return (<div>
             {/* this Phone version */}
 

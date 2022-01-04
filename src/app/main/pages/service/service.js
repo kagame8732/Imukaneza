@@ -7,7 +7,7 @@ import { useHistory } from 'react-router-dom'
 import RideService from '../service/ride/ride.service'
 import truck from '../../../../assets/img/truck.gif'
 import packaging from '../../../../assets/img/packaging.jpg'
-
+import Select from 'react-select'
 
 export default class Service extends Component {
     state = {
@@ -15,16 +15,12 @@ export default class Service extends Component {
         packaging: false,
         departure: '',
         destination: ''
-
     }
-
     handleService = e => {
         e.preventDefault();
         console.log(this);
         const { ride, packaging, departure, destination
         } = this.state;
-
-
 
         RideService.createRide(
             ride,
@@ -33,18 +29,22 @@ export default class Service extends Component {
             destination
         ).then(
             response => {
-                // console.log(response);
+
                 alert('Done')
             },
             error => {
                 alert("Failed")
-                // console.log(error);
+
             }
         );
     }
+    // const options = [
+    //     { value: '1', label: 'Kicukiro' },
+    //     { value: '2', label: 'Nyarugenge' },
+    //     { value: '3', label: 'Gasabo' }
+    // ]
 
     render() {
-        console.log(this.state);
         return (
             <form onSubmit={this.handleService}>
                 <div>
@@ -98,8 +98,6 @@ export default class Service extends Component {
                                             onChange={e => this.setState(() => ({
                                                 [e.target.name]: e.target.value
                                             }))}
-                                        // onChange={e => this.packaging = e.target.value}
-
                                         />
                                         <br />
                                         <br />
@@ -114,13 +112,10 @@ export default class Service extends Component {
                                             onChange={e => this.setState(() => ({
                                                 [e.target.name]: e.target.value
                                             }))}
-                                        // onChange={e => this.departure = e.target.value}
-
                                         />
                                         <datalist id="brow" >
 
                                             <option value="1">Kicukiro</option>
-
                                             <option value="2">Nyarugenge</option>
                                             <option value="3">Gasabo</option>
 
@@ -135,15 +130,13 @@ export default class Service extends Component {
                                             onChange={e => this.setState(() => ({
                                                 [e.target.name]: e.target.value
                                             }))}
-                                        // onChange={e => this.destination = e.target.value}
-
                                         />
                                         <datalist id="brow" >
                                             <option value="1">Kicukiro</option>
-
                                             <option value="2">Nyarugenge</option>
                                             <option value="3">Gasabo</option>
                                         </datalist>
+                                        {/* <Select options={options} /> */}
                                         <br />
                                         <br />
                                         <button>Submit</button>

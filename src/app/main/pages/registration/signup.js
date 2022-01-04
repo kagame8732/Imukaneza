@@ -88,10 +88,6 @@ export default class Signup extends Component {
             successful: false
         });
 
-        // this.form.validateAll();
-
-        // if (this.checkBtn.context._errors.length === 0) {
-
         AuthService.register(
             this.firstName,
             this.lastName,
@@ -128,8 +124,6 @@ export default class Signup extends Component {
         return (
             <form onSubmit={this.handleRegister}>
                 <div>
-                    {/* header one  */}
-                    {/* <Header/> */}
                     <div
                         className="container"
                         id="centre_div_login">
@@ -242,7 +236,6 @@ export default class Signup extends Component {
                                     100% privacy guaranteed</p>
                                 <ul
                                     id="list_style_none_signup"
-                                // onClick={() => { history.push('/') }}
                                 >
                                     <li>Have an account?</li>
                                     <li><Link
@@ -251,10 +244,7 @@ export default class Signup extends Component {
                                         id="active_login"
                                     >Sign in
                                     </Link></li>
-                                    {/* <li
-                                        className="color_primary"
-                                        id="active_login">
-                                        Sign in</li> */}
+
                                 </ul>
                                 <div
                                     id="lass">
@@ -268,9 +258,6 @@ export default class Signup extends Component {
                                     </p>
                                 </div>
                             </div>
-                            {/* <div className="col-sm-2" id="left_side_singup">
-            <img id="image_frsit_sct_signup" src={Logo} alt="Doctor"/>
-            </div> */}
                         </div>
                     </div>
                 </div>
